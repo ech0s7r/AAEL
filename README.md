@@ -103,8 +103,6 @@ To add a new remote service:
 
 #####Call a remote service method
 
-L'esecuzione del metodo del servizio avviene nel seguete modo:
-
 * If your service is remote (a new process is created for the service): a new thread is spawn by the framework in the remote process and the method is executed in the new thread just created. 	
 For example: If in the application you create 5 thread and for each thread you invoke a remote service, so in the service will be spawn respectively 5 new thread and each method will be invoked in their respective thread.
 **(so make sure that the methods implementation is thread-safe)**

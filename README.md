@@ -1,7 +1,7 @@
 # Android Application Extension Library
 
 
-**I'm still working on this library, the sources will be soon on GitHub.**
+**I'm still working on this library (90/100), the sources will be soon on GitHub.**
 
 ##Include the library
 
